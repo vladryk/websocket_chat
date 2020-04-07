@@ -1,4 +1,4 @@
-from chat.views import index_handler, index
+from apps.chat.views import index_handler, index
 from aiohttp import web
 
 routes = [
